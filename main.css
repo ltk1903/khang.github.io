@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Để làm hình tròn */
+    margin-right: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h4 {
+    margin: 5px 0;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Để chia thành 2 cột */
+    margin: 0;
+    padding: 0;
+}
+
+.header-list ul {
+    flex: 0 0 50%; /* Chia đều danh sách thành 2 cột */
+    margin: 5px 0;
+}
